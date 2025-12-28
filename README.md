@@ -18,7 +18,7 @@ This work unifies discrete and continuous grokking under a single framework and 
 
 ## 2. Method: The Grokkit Architecture
 ### 2.1 Core Components
-AGI consists of three elements:
+AGI consists of eleven elements:
 
 - Algorithmic Cassettes: Independent neural modules, each trained to grok a specific task:
 - ParityCassette: MLP for k-bit subset parity (k=3) in n-bit inputs.
