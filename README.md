@@ -125,11 +125,14 @@ All code, models, and datasets are available at:
 Hardware: Tested on CPU i3 11 Gen . Software: Python 3.10, PyTorch 2.1+.
 
 ## References
-- Power, A., et al. (2022). Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets. arXiv:2201.02177.
-- Liu, Z., et al. (2023). Understanding Grokking via Sparse Autoencoders. ICLR 2023.
-- grisun0 (2025). Structural Weight Transfer for Grokked Networks. Zenodo. https://doi.org/10.5281/zenodo.18072859
-- grisun0 (2025). Structural Transfer for Wave Dynamics. GitHub.
-- Nanda, N., et al. (2023). Progress Measures for Grokking via Mechanistic Interpretability. arXiv:2301.05217.
+
+1. Citation for Grokking and Local Complexity (LC): Title: Deep Networks Always Grok and Here is Why
+
+Authors: Ahmed Imtiaz Humayun, Randall Balestriero, Richard Baraniuk
+
+2. Citation for Superposition and Sparse Autoencoders (SAE): Title: Superposition as Lossy Compression: Measure with Sparse Autoencoders and Connect to Adversarial Vulnerability
+
+Authors: Leonard Bereska, Zoe Tzifa-Kratira, Reza Samavi, Efstratios Gavves
 
 ## Citation
 
