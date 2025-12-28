@@ -270,12 +270,11 @@ Authors: Leonard Bereska, Zoe Tzifa-Kratira, Reza Samavi, Efstratios Gavves
 ## Citation
 
 ```text
-Citation
 @software{grisuno2025_grokkit,
 author = {grisun0},
-title = {Grokkit: A Unified Framework for Zero-Shot Structural Transfer of Grokked Algorithmic Super - Cassettes},
+title = {Grokkit: A Unified Framework for Zero-Shot Structural Transfer and Superposition of Grokked Algorithmic Cassettes},
 year = {2025},
-url = {https://github.com/grisuno/grokkit }
+url = {https://github.com/grisuno/grokkit}
 }
 ```
 
