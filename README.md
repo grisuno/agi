@@ -1,38 +1,40 @@
-# Agentic Grokked Integrated is a Unified Framework for Zero-Shot Structural Transfer of Grokked Algorithmic Cassettes
+# Grokkit: A Unified Framework for Zero-Shot Structural Transfer and Superposition of Grokked Algorithmic Cassettes
 **grisun0**
 Independent Research
 December 2025
 
 ## Abstract
-We present AGI, a modular framework for composing and deploying neural networks that have grokked compact algorithmic or physical laws. Grokkit treats grokked models as algorithmic cassettes—self-contained, structurally transferable primitives that can be embedded into larger architectures via weight expansion without retraining. We demonstrate zero-shot transfer across four distinct domains: (1) discrete subset parity, (2) continuous wave propagation (PDE), (3) analytical Keplerian orbital mechanics (ODE), and (4) chaotic double pendulum dynamics (Hamiltonian system). In all cases, the expanded models achieve near-perfect performance on tasks far beyond their original training scale, confirming that grokking crystallizes geometric algorithmic representations that are invariant under structural expansion. Grokkit provides the first unified architecture for composable, certified physical AI.
+We present Grokkit, a modular framework for extracting, expanding, composing, and fusing neural networks that have grokked compact algorithmic or physical laws. Grokkit treats grokked models as algorithmic cassettes—self-contained, structurally transferable primitives that can be embedded into larger architectures via weight surgery without retraining. We demonstrate zero-shot structural transfer across four distinct domains: (1) discrete subset parity, (2) 1D wave propagation (PDE), (3) analytical Keplerian orbital mechanics (ODE), and (4) chaotic double pendulum dynamics (Hamiltonian system). Furthermore, we introduce a novel superposition mechanism that enables multiple cassettes to be surgically injected into a single shared weight tensor, creating a fused model capable of solving all tasks conditionally on input shape alone. This validates that grokking produces geometrically invariant algorithmic representations that remain functional under both modular composition and direct weight-level fusion. Grokkit establishes a foundation for composable, interpretable, and physically certified artificial intelligence.
 
 ## 1. Introduction
-Recent work has shown that neural networks trained on small algorithmic datasets undergo a phase transition—grokking—where test accuracy suddenly jumps to 100% after prolonged overfitting [1, 2]. Concurrently, physics-informed models have been shown to grok analytical laws like Kepler’s equations [3] or the wave equation [4]. A critical open question remains: are these grokked representations merely functional mappings, or do they encode algorithmic structure that can be transferred?
 
-We answer this affirmatively. Grokkit formalizes the hypothesis that grokking produces modular, geometric primitives that can be:
+The phenomenon of grokking—where neural networks abruptly transition from memorization to perfect generalization after extended training—has been observed in both algorithmic [1] and physical [2–4] tasks. A central question is whether grokked solutions are isolated functional approximations or encode transferable algorithmic structures.
 
-Extracted from a base model,
-Expanded via domain-aware weight surgery,
-Injected into larger models as zero-cost, certified components.
-This work unifies discrete and continuous grokking under a single framework and demonstrates its validity across algorithmic, analytical, and chaotic physical systems.
+We answer in the affirmative. Grokkit formalizes grokked models as modular primitives ("cassettes") that can be extracted, scaled via domain-specific structural operators, composed in multi-cassette architectures, and—crucially—fused into a single weight tensor through precise subspace injection. This superposition enables a unified model to conditionally execute distinct algorithms based solely on input tensor shape, without explicit routing layers. The framework unifies discrete and continuous grokking and demonstrates its validity across logic, PDEs, analytical mechanics, and chaotic systems.
 
 ## 2. Method: The Grokkit Architecture
 ### 2.1 Core Components
-AGI consists of eleven elements:
 
-- Algorithmic Cassettes: Independent neural modules, each trained to grok a specific task:
-- ParityCassette: MLP for k-bit subset parity (k=3) in n-bit inputs.
-- WaveCassette: 1D CNN for 1D wave equation (local 3-point stencil).
-- KeplerCassette: MLP for Keplerian orbit prediction (analytical ODE).
-- PendulumCassette: MLP with orthogonal initialization for double pendulum (chaotic Hamiltonian).
-- Structural Transfer Operators: Domain-specific weight expansion:
-- Parity: Zero-padding of weight matrices (preserves subset subspace).
-- Wave: Direct weight copying (CNN kernels are scale-invariant).
-- Kepler: Geometric weight expansion with correlated replicas (preserves angular relationships).
-- Pendulum: Null-space surgery with orthogonal perturbations (preserves symplectic structure).
-- Smart Router: A deterministic module that routes inputs to the correct cassette based on tensor shape (e.g., [B, 64] → parity, [B, 2, N] → wave).
+Grokkit consists of:
+
+- Algorithmic Cassettes: Specialized neural modules trained to full grokking:
+- ParityCassette: MLP solving k-bit subset parity in arbitrary-length inputs.
+- WaveCassette: 1D CNN implementing the finite-difference stencil of the wave equation.
+- KeplerCassette: MLP learning the closed-form two-body orbital propagation.
+- PendulumCassette: Symplectically initialized MLP simulating double pendulum dynamics.
+
+- Structural Transfer Operators: Domain-aware weight expansion techniques preserving invariants:
+- Parity: Block zero-padding maintaining linear subspace geometry.
+- Wave: Kernel replication leveraging convolutional locality.
+- Kepler: Correlated replica expansion preserving angular manifolds.
+- Pendulum: Null-space orthogonal surgery conserving symplectic structure.
+
+- Deterministic Shape-Based Router: Input domain inferred directly from tensor dimensionality and shape.
+- Weight-Level Fusion Module: Surgical injection of multiple cassettes into disjoint or minimally overlapping subspaces of a single large backbone, enabling superposition within one parameter tensor.
 
 ### 2.2 Training and Transfer Protocol
+
+Each cassette is trained independently until domain-specific grokking thresholds are reached. Structural transfer operators are then applied to expand capacity, followed by zero-shot evaluation. For fusion, cassettes are injected into predefined weight blocks of a shared oversized backbone initialized to zero, ensuring isolation of computational paths.
 
 Train base cassette until grokking threshold is met:
 Parity: 100% test accuracy.
@@ -44,6 +46,8 @@ Zero-shot evaluation: Test expanded model with no gradient updates.
 
 ## 3. Results
 ### 3.1 Zero-Shot Transfer Performance
+
+All individual cassettes achieve near-perfect zero-shot performance after expansion to scales far beyond training: high accuracy in extended parity, near-machine-precision MSE in wave propagation, analytical-level error in Kepler orbits, and stable long-term prediction in chaotic pendulum trajectories.
 
 ```text
 ❯ python3 app.py
@@ -188,50 +192,68 @@ SUCCESS: Unified model runs all domains in a single weight tensor!
 
 All cassettes achieve zero-shot success, defined as performance above a domain-specific grokking threshold after expansion.
 
-### 3.2 Geometric Fidelity
+### 3.2 Multi-Cassette Composition
+
+A unified model loading all four cassettes with shape-based routing achieves 100% domain identification and executes the correct algorithm with performance matching individual expanded cassettes.
+
+### 3.3 Geometric Fidelity
+
 Even when absolute error increases (e.g., Kepler), internal geometric structure is preserved:
 
 Kepler: Angle consistency (H2) 0.6215 → 0.6241; distance preservation 0.9828 → 0.9835.
 Pendulum: Symplectic score 0.9944 maintained; angular invariance stable to 4 decimals.
 This confirms that grokking encodes invariant geometric manifolds, not just input-output mappings.
 
-## 4. Discussion
-### 4.1 Why Grokkit Works: Algorithmic Crystallization
-AGI succeeds because grokking transforms statistical learning into algorithmic induction:
+### 3.4 Single-Tensor Superposition (FusedGrokkit)
 
-Parity: Learns a linear subspace over k relevant bits.
-Wave: Learns the discrete Laplacian operator as a convolutional kernel.
-Kepler: Learns the analytical two-body solution as a coordinate transformation.
-Pendulum: Learns Hamiltonian level sets as a symplectic manifold.
-These representations are modular and low-dimensional, allowing isolation and transfer via structural weight operations.
+We demonstrate successful fusion of all cassettes into one weight tensor. Input shape alone activates the corresponding algorithmic subspace:
+
+[B, ≥64] → parity subspace
+[B, 2, N] → wave subspace
+[B, 5] → Kepler subspace
+[B, 4] → pendulum subspace
+
+Domain detection accuracy reaches 100%, confirming conditional execution without auxiliary routing networks.
+Geometric fidelity analysis shows preservation of key invariants (angular relationships, symplectic structure) across transfer and fusion.
+
+## 4. Discussion
+### 4.1 Mechanism: Algorithmic Crystallization and Geometric Invariance
+
+Grokkit succeeds because grokking induces low-dimensional, invariant geometric representations: linear subspaces (parity), convolutional operators (wave), coordinate transformations (Kepler), and symplectic manifolds (pendulum). These structures tolerate precise weight surgery, enabling both modular composition and direct superposition.
+
 
 ### 4.2 Limitations
-Not length extrapolation: Grokkit preserves fixed algorithmic cores (e.g., k=3 bits, fixed PDE stencil). It does not scale algorithmic complexity.
-Requires full grokking: Transfer fails if the base model has not fully grokked.
-Domain-specific expansion: Each physical law requires a tailored transfer operator.
-### 4.3 Broader Impact
-AGI enables composable physical AI:
+
+- Fixed algorithmic complexity: Transfer preserves core laws but does not extrapolate to higher complexity (e.g., larger k in parity).
+- Requires complete grokking in base models.
+- Fusion currently limited to non-overlapping subspaces; full superposition in shared dimensions remains future work.
 
 Pre-grokked laws (gravity, electromagnetism, fluid dynamics) can be inserted as certified modules.
 Large models can be built from verified, zero-cost algorithmic components.
 Scientific ML gains interpretability: each cassette is a known physical law.
 
+### 4.3 Broader Implications
+
+Grokkit enables:
+
+- Construction of large-scale physical AI from verified, grokked building blocks.
+- Interpretable scientific models where each subspace corresponds to a known law.
+- Extreme parameter efficiency through conditional computation induced by weight geometry rather than dynamic routing.
+
 ## 5. Conclusion
 
-We have demonstrated that grokking produces structurally transferable algorithmic cassettes across discrete mathematics and continuous physics. Grokkit provides a unified framework for extracting, expanding, and composing these cassettes with zero retraining cost. This validates the hypothesis that grokking is algorithmic crystallization—the formation of geometric primitives that encode compact laws as invariant structures in weight space.
-
-Future work will extend Grokkit to more complex PDEs (Navier-Stokes, Maxwell) and explore automated discovery of transfer operators.
+We have shown that grokking produces modular, geometrically invariant algorithmic primitives that support zero-shot structural transfer, multi-cassette composition, and direct weight-level fusion into a single conditional super-model. Grokkit provides the first unified framework for treating physical and mathematical laws as transferable, composable, and superposable components in neural architectures.
+Future directions include extension to higher-dimensional PDEs, automated transfer operator discovery, and exploration of dense superposition in overlapping weight spaces.
 
 ## 6. Reproducibility
 
-All code, models, and datasets are available at:
+Code and pretrained grokked models are publicly available:
 
-- AGI Core: https://github.com/grisuno/agi
-- Parity: https://github.com/grisuno/algebra-de-grok
-- Wave: https://github.com/grisuno/1d_wave_equation_grokker
-- Kepler Orbit: https://github.com/grisuno/kepler_orbit_grokker
-- Chaotic Pendulum : https://github.com/grisuno/chaotic_pendulum_grokked
-
+- Core Framework: https://github.com/grisuno/agi
+- Parity Cassette: https://github.com/grisuno/algebra-de-grok
+- Wave Cassette: https://github.com/grisuno/1d_wave_equation_grokker
+- Kepler Cassette: https://github.com/grisuno/kepler_orbit_grokker
+- Pendulum Cassette: https://github.com/grisuno/chaotic_pendulum_grokked
 
 Hardware: Tested on CPU i3 11 Gen . Software: Python 3.10, PyTorch 2.1+.
 
@@ -251,7 +273,7 @@ Authors: Leonard Bereska, Zoe Tzifa-Kratira, Reza Samavi, Efstratios Gavves
 Citation
 @software{grisuno2025_grokkit,
 author = {grisun0},
-title = {Grokkit: A Unified Framework for Zero-Shot Structural Transfer of Grokked Algorithmic Cassettes},
+title = {Grokkit: A Unified Framework for Zero-Shot Structural Transfer of Grokked Algorithmic Super - Cassettes},
 year = {2025},
 url = {https://github.com/grisuno/grokkit }
 }
