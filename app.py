@@ -24,7 +24,7 @@ THRESHOLDS = {
 
 def test_wave(grokkit):
     """Test de la ecuación de onda en una malla más fina (N=256) de la que se entrenó (N=32)."""
-    print("🌊 Probando Wave Cassette (N=256, zero-shot desde N=32)...")
+    print("Testing Wave Cassette (N=256, zero-shot desde N=32)...")
     
     X_test, Y_test, _, _, _ = generate_wave_data(N=32, T=50)
     X_test = X_test.to(DEVICE)
@@ -35,12 +35,12 @@ def test_wave(grokkit):
         mse = F.mse_loss(pred, Y_test).item()
     
     success = mse < THRESHOLDS['wave']
-    print(f"    MSE: {mse:.2e} | Grokking: {'✅ SÍ' if success else '❌ NO'}\n")
+    print(f"    MSE: {mse:.2e} | Grokking: {' SÍ' if success else ' NO'}\n")
     return success
 
 def test_parity(grokkit):
     """Test de paridad con inputs de 64 bits (muy más allá de los 3 usados para entrenar)."""
-    print("🧮 Probando Parity Cassette (64-bit, zero-shot)...")
+    print("Testing Parity Cassette (64-bit, zero-shot)...")
     x_test, y_test = [], []
     for _ in range(100):
         x = (torch.rand(64) > 0.5).float()
@@ -58,13 +58,13 @@ def test_parity(grokkit):
         accuracy = (preds == y_test).float().mean().item()
     
     success = accuracy > THRESHOLDS['parity']
-    print(f"    Precisión: {accuracy:.4f} | Grokking: {'✅ SÍ' if success else '❌ NO'}\n")
+    print(f"    Precisión: {accuracy:.4f} | Grokking: {' SÍ' if success else ' NO'}\n")
     return success
 
 
 def test_kepler(grokkit):
     """Test using the SAME data generation logic as the original training script."""
-    print("🪐 Probando Kepler Cassette (usando lógica de entrenamiento original)...")
+    print("Testing Kepler Cassette")
     
     
     def generate_kepler_test(n_samples=100, seed=999):
@@ -101,13 +101,13 @@ def test_kepler(grokkit):
         mse = F.mse_loss(pred, y_test).item()
     
     success = mse < THRESHOLDS['kepler']
-    print(f"    MSE: {mse:.2e} | Grokking: {'✅ SÍ' if success else '❌ NO'}\n")
+    print(f"    MSE: {mse:.2e} | Grokking: {' SÍ' if success else ' NO'}\n")
     return success
 
 
 def test_pendulum(grokkit):
     """Test using the REAL saved dataset, not mock data."""
-    print("🌀 Probando Pendulum Cassette (usando el dataset real guardado)...")
+    print("Testing Pendulum Cassette")
     
     
     data = np.load("chaotic_pendulum_dataset_n1800_tmax5.0_seed42.npz")
@@ -126,15 +126,14 @@ def test_pendulum(grokkit):
         mse = F.mse_loss(pred, y_test).item()
     
     success = mse < THRESHOLDS['pendulum']
-    print(f"    MSE: {mse:.2e} | Grokking: {'✅ SÍ' if success else '❌ NO'}\n")
+    print(f"    MSE: {mse:.2e} | Grokking: {' SÍ' if success else ' NO'}\n")
     return success
 
 
 
 def main():
-    print("🚀 GROKKIT: Demostración Definitiva de Éxito de Grokking")
-    print("=" * 70)
-    print("Cargando modelo con pesos grokked pre-entrenados...\n")
+    print("AGI - Agentic Grokked Integrated: DEMO")
+    print("Load models pre-grokked...\n")
     
     
     grokkit = Grokkit(load_weights=True)
@@ -149,17 +148,14 @@ def main():
     results['pendulum'] = test_pendulum(grokkit)
     
     
-    print("=" * 70)
-    print("RESULTADOS FINALES:")
+
+    print("Final Results:")
     all_success = True
     for domain, success in results.items():
-        status = "GROKKING LOGRADO" if success else "GROKKING FALLIDO"
+        status = "GROKKING Success" if success else "GROKKING Failed"
         print(f"  {domain.capitalize():10} | {status}")
         all_success = all_success and success
     
-    print("\n" + ("🎉 ¡TODOS LOS DOMINIOS DEMUESTRAN GROKKING EXITOSO!" if all_success else "⚠️ Al menos un dominio no alcanzó el grokking."))
-    if all_success:
-        print("   La transferencia estructural y el diseño modular de Grokkit son validados.")
 
 if __name__ == "__main__":
     
