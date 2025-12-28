@@ -86,7 +86,7 @@ Input → Predicted: pendulum  | True: pendulum  | ✓ | Confidence: 100.0%
 Routing Accuracy: 100.00%
 
 ✅ AGI Success
-❯ python3 agi_uni.py
+❯ python3 uni.py
 Aentic Grokked Integrated v0.1 - Demo Multi-Domain
 ============================================================
 🧠 Cargando cassette parity desde /home/grisun0/src/py/algebra-de-grok/weights/weights/grok_model_stage4_n64_d1024_adaptive.pth
