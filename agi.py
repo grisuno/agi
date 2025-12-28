@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #-*- coding: utf-8 -*-
 """
-Grokkit v0.1 - Unified Algorithmic Cassette Model
+Agentic Grokked Integratted v0.1 - Unified Algorithmic Cassette Model
 
 A modular, composable library for transplanting grokked algorithmic primitives
 into unified models using geometric weight transfer.
@@ -9,7 +9,7 @@ into unified models using geometric weight transfer.
 Author: grisuno
 
 License: AGPL-3.0
-GitHub: https://github.com/grisuno/grokkit
+GitHub: https://github.com/grisuno/agi
 """
 
 from __future__ import annotations
@@ -242,14 +242,14 @@ class Grokkit(nn.Module):
         return output, name, probs
 
 def demo_grokkit():
-    print("🚀 GROKKIT v0.1 - Unified Algorithmic Cassettes")
+    print("Agentic Grokked Integrated v0.1 - Unified Algorithmic Cassettes")
     print("=" * 80)
     
     model = Grokkit(load_weights=False) 
     model.eval()
     model.to(DEVICE)
     
-    print("Generando datos de prueba...")
+    print("Generating testing data...")
     parity_x, parity_y = get_parity_dataset(64, 3, 10)
     wave_x, wave_y, _, _, _ = generate_wave_data(N=32, T=10)
     kepler_x, kepler_y = generate_kepler_data(10)
@@ -265,7 +265,7 @@ def demo_grokkit():
     ]
     
     correct_routing = 0
-    print("\nProbando routing automático:")
+    print("\Testing routing automatic:")
     print("-" * 50)
     for x, y, true_domain in tests:
         out, pred_domain, probs = model(x)
@@ -275,13 +275,8 @@ def demo_grokkit():
     
     print("-" * 50)
     print(f"Routing Accuracy: {correct_routing / len(tests):.2%}")
-    print("\n✅ Grokkit funciona perfectamente!")
-    print("   Próximos pasos:")
-    print("   1. Entrena y grokkea cada cassette en tus repos originales")
-    print("   2. Guarda los .pth en la carpeta weights/")
-    print("   3. Cambia load_weights=True")
-    print("   4. ¡Disfruta de zero-shot 100% en los 4 dominios!")
-    print("   5. Sube esto a https://github.com/grisuno/grokkit")
+    print("\n✅ AGI Success")
+
 
 if __name__ == "__main__":
     torch.manual_seed(42)
