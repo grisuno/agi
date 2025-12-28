@@ -115,29 +115,35 @@ Future work will extend Grokkit to more complex PDEs (Navier-Stokes, Maxwell) an
 
 All code, models, and datasets are available at:
 
-AGI Core: https://github.com/grisuno/agi
-Parity: https://github.com/grisuno/algebra-de-grok
-Wave: https://github.com/grisuno/1d_wave_equation_grokker
-Kepler: https://github.com/grisuno/kepler_orbit_grokker
+- AGI Core: https://github.com/grisuno/agi
+- Parity: https://github.com/grisuno/algebra-de-grok
+- Wave: https://github.com/grisuno/1d_wave_equation_grokker
+- Kepler Orbit: https://github.com/grisuno/kepler_orbit_grokker
+- Chaotic Pendulum : https://github.com/grisuno/chaotic_pendulum_grokked
 
-Pendulum: Included in Grokkit repo
+
 Hardware: Tested on CPU i3 11 Gen . Software: Python 3.10, PyTorch 2.1+.
 
 ## References
-Power, A., et al. (2022). Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets. arXiv:2201.02177.
-Liu, Z., et al. (2023). Understanding Grokking via Sparse Autoencoders. ICLR 2023.
-grisun0 (2025). Structural Weight Transfer for Grokked Networks. Zenodo. https://doi.org/10.5281/zenodo.18072859
-grisun0 (2025). Structural Transfer for Wave Dynamics. GitHub.
-Nanda, N., et al. (2023). Progress Measures for Grokking via Mechanistic Interpretability. arXiv:2301.05217.
+- Power, A., et al. (2022). Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets. arXiv:2201.02177.
+- Liu, Z., et al. (2023). Understanding Grokking via Sparse Autoencoders. ICLR 2023.
+- grisun0 (2025). Structural Weight Transfer for Grokked Networks. Zenodo. https://doi.org/10.5281/zenodo.18072859
+- grisun0 (2025). Structural Transfer for Wave Dynamics. GitHub.
+- Nanda, N., et al. (2023). Progress Measures for Grokking via Mechanistic Interpretability. arXiv:2301.05217.
+
+## Citation
+
+```text
 Citation
 @software{grisuno2025_grokkit,
 author = {grisun0},
 title = {Grokkit: A Unified Framework for Zero-Shot Structural Transfer of Grokked Algorithmic Cassettes},
 year = {2025},
-url = {https://github.com/grisuno/grokkit}
+url = {https://github.com/grisuno/grokkit }
 }
+```
 
-## License
+# License
 AGPL v3
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
