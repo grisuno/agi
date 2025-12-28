@@ -1,4 +1,4 @@
-# AGI: Agentic Grokked Integrated is a Unified Framework for Zero-Shot Structural Transfer of Grokked Algorithmic Cassettes
+# Agentic Grokked Integrated is a Unified Framework for Zero-Shot Structural Transfer of Grokked Algorithmic Cassettes
 **grisun0**
 Independent Research
 December 2025
