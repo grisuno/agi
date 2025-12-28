@@ -143,6 +143,47 @@ Results
   - kepler: MSE = 1.08e+00
   - pendulum: MSE = 1.11e+00
 
+❯ python3 super_casette.py
+FusedGrokkit: Single-Model Superposition Demo
+============================================================
+Injected Parity cassette (structural subspace: [0:64, 0:1024])
+Injected Wave cassette (approx. linearized, block [64:128])
+Injected Kepler cassette (block [128:133])
+Injected Pendulum cassette (block [133:137])
+Fused model created successfully with all available cassettes
+
+Testing each domain in the fused model:
+--------------------------------------------------
+Input shape: torch.Size([5, 64]) → Output shape: torch.Size([5, 2])
+Domain detected: parity | Expected: parity | ✅
+Performance: Accuracy: 40.00%
+--------------------------------------------------
+Input shape: torch.Size([5, 2, 32]) → Output shape: torch.Size([5, 32])
+Domain detected: wave | Expected: wave | ✅
+Performance: MSE: 1.61e-01
+--------------------------------------------------
+Input shape: torch.Size([5, 5]) → Output shape: torch.Size([5, 2])
+Domain detected: kepler | Expected: kepler | ✅
+Performance: MSE: 2.39e+00
+--------------------------------------------------
+Input shape: torch.Size([5, 4]) → Output shape: torch.Size([5, 4])
+Domain detected: pendulum | Expected: pendulum | ✅
+Performance: MSE: 5.21e-01
+--------------------------------------------------
+
+Fused Model Summary
+==================================================
+Domain routing accuracy: 4/4 (100.00%)
+  - parity: ✅ Accuracy: 40.00%
+  - wave: ✅ MSE: 1.61e-01
+  - kepler: ✅ MSE: 2.39e+00
+  - pendulum: ✅ MSE: 5.21e-01
+
+Total parameters in fused model: 2,281,766,912
+Memory footprint: ~8704.25 MB
+
+SUCCESS: Unified model runs all domains in a single weight tensor!
+
 ```
 
 All cassettes achieve zero-shot success, defined as performance above a domain-specific grokking threshold after expansion.
