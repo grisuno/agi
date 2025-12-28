@@ -72,6 +72,76 @@ Final Results:
   Kepler     | GROKKING Success
   Pendulum   | GROKKING Success
 
+❯ python agi.py
+Agentic Grokked Integrated v0.1 - Unified Algorithmic Cassettes
+================================================================================
+Generating testing data...
+Testing routing automatic:
+--------------------------------------------------
+Input → Predicted: parity    | True: parity    | ✓ | Confidence: 100.0%
+Input → Predicted: wave      | True: wave      | ✓ | Confidence: 100.0%
+Input → Predicted: kepler    | True: kepler    | ✓ | Confidence: 100.0%
+Input → Predicted: pendulum  | True: pendulum  | ✓ | Confidence: 100.0%
+--------------------------------------------------
+Routing Accuracy: 100.00%
+
+✅ AGI Success
+❯ python3 agi_uni.py
+Aentic Grokked Integrated v0.1 - Demo Multi-Domain
+============================================================
+🧠 Cargando cassette parity desde /home/grisun0/src/py/algebra-de-grok/weights/weights/grok_model_stage4_n64_d1024_adaptive.pth
+🧠 Cargando cassette wave desde /home/grisun0/src/py/algebra-de-grok/weights/weights/wave_grok_cnn_physics_cassette.pth
+🧠 Cargando cassette kepler desde /home/grisun0/src/py/algebra-de-grok/weights/weights/kepler_base_model.pth
+🧠 Cargando cassette pendulum desde /home/grisun0/src/py/algebra-de-grok/weights/weights/symplectic_double_pendulum_grok_cassette.pth
+✅ Cargados 4 cassettes
+
+========================================
+Problem: Paridad Binaria
+========================================
+  ✓ Predictions: [1, 0, 1, 0, 0]
+  ✓ Ground truth: [1, 0, 1, 0, 0]
+  ✓ Accuracy: 100.00%
+  ✓ Domain Detected: parity ✅
+  ✓ Confidence: 100.0%
+  ✓ Time: 1.19 ms
+
+========================================
+Problem: Ecuación de Onda
+========================================
+  ✓ MSE: 4.30e-07
+  ✓ Output shape: torch.Size([5, 32])
+  ✓ Domain Detected: wave ✅
+  ✓ Confidence: 100.0%
+  ✓ Time: 1.92 ms
+
+========================================
+Problem: Órbita Kepleriana
+========================================
+  ✓ MSE: 1.08e+00
+  ✓ Orbits predicted: [[0.9184668064117432, 0.13528387248516083], [3.2116708755493164, -0.48654210567474365]]...
+  ✓ Domain Detected: kepler ✅
+  ✓ Confidence: 100.0%
+  ✓ Time: 0.16 ms
+
+========================================
+Problem: Péndulo Caótico
+========================================
+  ✓ MSE: 1.11e+00
+  ✓ State predicted: [[-0.25283944606781006, 0.9262820482254028, 0.46256935596466064, 0.2673385739326477], [-0.6484752297401428, -0.6976774334907532, -0.8366202712059021, 0.752569854259491]]...
+  ✓ Domain Detected: pendulum ✅
+  ✓ Confidence: 100.0%
+  ✓ Time: 0.14 ms
+
+============================================================
+Results
+============================================================
+✓ Routing Accuracy: 4/4 (100.00%)
+✓ Time total inference: 3.41 ms
+✓ Time per problem: 0.85 ms
+  - parity: Accuracy = 100.00%
+  - wave: MSE = 4.30e-07
+  - kepler: MSE = 1.08e+00
+  - pendulum: MSE = 1.11e+00
 
 ```
 
