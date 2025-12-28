@@ -265,7 +265,7 @@ def demo_grokkit():
     ]
     
     correct_routing = 0
-    print("\Testing routing automatic:")
+    print("Testing routing automatic:")
     print("-" * 50)
     for x, y, true_domain in tests:
         out, pred_domain, probs = model(x)
