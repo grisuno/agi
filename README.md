@@ -46,36 +46,32 @@ Zero-shot evaluation: Test expanded model with no gradient updates.
 ### 3.1 Zero-Shot Transfer Performance
 
 ```text
-❯ python3 prove_grokkit.py
-🚀 GROKKIT: Demostración Definitiva de Éxito de Grokking
-======================================================================
-Cargando modelo con pesos grokked pre-entrenados...
+❯ python3 app.py
+AGI - Agentic Grokked Integrated: DEMO
+Load models pre-grokked...
 
 ✓ Loaded grokked weights for parity (pure state_dict)
 ✓ Loaded grokked weights for wave (from checkpoint)
 ✓ Loaded grokked weights for kepler (pure state_dict)
 ✓ Loaded grokked weights for pendulum (from checkpoint)
-🧮 Probando Parity Cassette (64-bit, zero-shot)...
-    Precisión: 1.0000 | Grokking: ✅ SÍ
+Testing Parity Cassette (64-bit, zero-shot)...
+    Precisión: 1.0000 | Grokking:  SÍ
 
-🌊 Probando Wave Cassette (N=256, zero-shot desde N=32)...
-    MSE: 2.33e-07 | Grokking: ✅ SÍ
+Testing Wave Cassette (N=256, zero-shot desde N=32)...
+    MSE: 2.33e-07 | Grokking:  SÍ
 
-🪐 Probando Kepler Cassette (usando lógica de entrenamiento original)...
-    MSE: 3.45e-05 | Grokking: ✅ SÍ
+Testing Kepler Cassette
+    MSE: 3.45e-05 | Grokking:  SÍ
 
-🌀 Probando Pendulum Cassette (usando el dataset real guardado)...
-    MSE: 1.57e-02 | Grokking: ✅ SÍ
+Testing Pendulum Cassette
+    MSE: 1.57e-02 | Grokking:  SÍ
 
-======================================================================
-RESULTADOS FINALES:
-  Parity     | GROKKING LOGRADO
-  Wave       | GROKKING LOGRADO
-  Kepler     | GROKKING LOGRADO
-  Pendulum   | GROKKING LOGRADO
+Final Results:
+  Parity     | GROKKING Success
+  Wave       | GROKKING Success
+  Kepler     | GROKKING Success
+  Pendulum   | GROKKING Success
 
-🎉 ¡TODOS LOS DOMINIOS DEMUESTRAN GROKKING EXITOSO!
-   La transferencia estructural y el diseño modular de Grokkit son validados.
 
 ```
 
