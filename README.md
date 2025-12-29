@@ -260,7 +260,7 @@ Raw tensor outputs are transformed into explicit, verifiable technical statement
 Constrained Linguistic Articulation
 The LLM receives only the original user question and the precomputed technical result. Its generation is constrained by domain-specific templates, low temperature, and explicit instructions forbidding extrapolation or invention. As a result, the LLM cannot introduce new facts, assumptions, or reasoning steps; it can only restate grounded results in natural language.
 
-Under this architecture, hallucination is not suppressed probabilistically but rendered structurally impossible. The language model lacks both the authority and the degrees of freedom required to fabricate knowledge. Even a small model (~500M parameters) running on minimal hardware is sufficient, as linguistic fluency—not reasoning capacity—is the only requirement.
+Under this architecture, hallucination is not suppressed probabilistically but rendered structurally impossible within the specified operational envelope. The language model lacks both the authority and the degrees of freedom required to fabricate knowledge. Even a small model (~500M parameters) running on minimal hardware is sufficient, as linguistic fluency—not reasoning capacity—is the only requirement.
 
 This demonstrates that hallucination is not an inherent property of language models, but an emergent failure caused by assigning them epistemic roles they are not suited to fulfill. By constraining LLMs to a purely communicative function and anchoring all knowledge to grokked geometric representations, Grokkit achieves reliable, hallucination-free interaction without relying on scale, reinforcement learning, or post-hoc filtering.
 
