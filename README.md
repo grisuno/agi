@@ -264,6 +264,8 @@ Under this architecture, hallucination is not suppressed probabilistically but r
 
 This demonstrates that hallucination is not an inherent property of language models, but an emergent failure caused by assigning them epistemic roles they are not suited to fulfill. By constraining LLMs to a purely communicative function and anchoring all knowledge to grokked geometric representations, Grokkit achieves reliable, hallucination-free interaction without relying on scale, reinforcement learning, or post-hoc filtering.
 
+This guarantee holds as long as the domain routing and expert outputs are correct; failures at those stages manifest as explicit errors rather than hallucinated content.
+
 ## 5. Conclusion
 
 We have shown that grokking produces modular, geometrically invariant algorithmic primitives that support zero-shot structural transfer, multi-cassette composition, and direct weight-level fusion into a single conditional super-model. Grokkit provides the first unified framework for treating physical and mathematical laws as transferable, composable, and superposable components in neural architectures.
