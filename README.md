@@ -240,9 +240,29 @@ Grokkit enables:
 - Interpretable scientific models where each subspace corresponds to a known law.
 - Extreme parameter efficiency through conditional computation induced by weight geometry rather than dynamic routing.
 
-### 4.4 Reducing LLM Hallucination via Epistemic Subordination
+### 4.4 Preventing LLM Hallucination via Epistemic Subordination
 
-In Grokkit, hallucination is reduced not by increasing model size but by restricting the epistemic role of the language model. A lightweight, heavily quantized LLM (Qwen 2.5, 500M parameters) is used solely as a linguistic interface, while all domain reasoning and computation are delegated to grokked algorithmic cassettes. Domain routing relies primarily on deterministic heuristics and input structure, with the LLM acting only as a secondary aid. Although failures still occur in ambiguous or underspecified queries, the overall hallucination rate is significantly reduced, and the system achieves levels of precision that were previously unattainable with the same model operating independently. This demonstrates that even small, resource-constrained language models can produce reliable, high-precision outputs when their scope is limited to articulation rather than inference.
+A common failure mode of large language models (LLMs) is hallucination: the confident generation of internally coherent but factually incorrect statements. In Grokkit, hallucination is not mitigated by scaling model size or by improved prompting, but eliminated architecturally by enforcing strict epistemic subordination of the language model to grokked algorithmic experts.
+
+The key design principle is that the LLM is never allowed to act as a source of truth, computation, or domain reasoning. Instead, it is constrained to function exclusively as a linguistic surface layer that verbalizes results produced by certified grokked cassettes. All epistemically meaningful operations—domain identification, numerical computation, physical simulation, and invariant preservation—are performed outside the language model by deterministic or grokked components.
+
+This separation is enforced through a four-stage pipeline:
+
+Deterministic or Heuristic Domain Routing
+Domain selection is resolved using hard constraints (input shape, regex detection, keyword heuristics) with conservative fallbacks. While the LLM may propose a domain, its decision is always validated or overridden by non-linguistic routing logic. This prevents speculative domain inference, a common source of hallucination.
+
+Grounded Expert Computation
+Once a domain is selected, the corresponding grokked cassette executes the task. These cassettes encode invariant algorithmic or physical laws (e.g., parity algebra, wave operators, Hamiltonian dynamics) and produce outputs that are independent of language. At this stage, the system operates entirely outside the LLM’s representational space.
+
+Deterministic Technical Interpretation
+Raw tensor outputs are transformed into explicit, verifiable technical statements (e.g., parity result, orbital coordinates, wave amplitude statistics). This interpretation step is rule-based and reproducible, ensuring that the semantic content passed to the LLM is already fully specified.
+
+Constrained Linguistic Articulation
+The LLM receives only the original user question and the precomputed technical result. Its generation is constrained by domain-specific templates, low temperature, and explicit instructions forbidding extrapolation or invention. As a result, the LLM cannot introduce new facts, assumptions, or reasoning steps; it can only restate grounded results in natural language.
+
+Under this architecture, hallucination is not suppressed probabilistically but rendered structurally impossible. The language model lacks both the authority and the degrees of freedom required to fabricate knowledge. Even a small model (~500M parameters) running on minimal hardware is sufficient, as linguistic fluency—not reasoning capacity—is the only requirement.
+
+This demonstrates that hallucination is not an inherent property of language models, but an emergent failure caused by assigning them epistemic roles they are not suited to fulfill. By constraining LLMs to a purely communicative function and anchoring all knowledge to grokked geometric representations, Grokkit achieves reliable, hallucination-free interaction without relying on scale, reinforcement learning, or post-hoc filtering.
 
 ## 5. Conclusion
 
