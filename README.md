@@ -240,6 +240,10 @@ Grokkit enables:
 - Interpretable scientific models where each subspace corresponds to a known law.
 - Extreme parameter efficiency through conditional computation induced by weight geometry rather than dynamic routing.
 
+### 4.4 Reducing LLM Hallucination via Epistemic Subordination
+
+In Grokkit, hallucination is reduced not by increasing model size but by restricting the epistemic role of the language model. A lightweight, heavily quantized LLM (Qwen 2.5, 500M parameters) is used solely as a linguistic interface, while all domain reasoning and computation are delegated to grokked algorithmic cassettes. Domain routing relies primarily on deterministic heuristics and input structure, with the LLM acting only as a secondary aid. Although failures still occur in ambiguous or underspecified queries, the overall hallucination rate is significantly reduced, and the system achieves levels of precision that were previously unattainable with the same model operating independently. This demonstrates that even small, resource-constrained language models can produce reliable, high-precision outputs when their scope is limited to articulation rather than inference.
+
 ## 5. Conclusion
 
 We have shown that grokking produces modular, geometrically invariant algorithmic primitives that support zero-shot structural transfer, multi-cassette composition, and direct weight-level fusion into a single conditional super-model. Grokkit provides the first unified framework for treating physical and mathematical laws as transferable, composable, and superposable components in neural architectures.
