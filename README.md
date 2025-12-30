@@ -307,6 +307,8 @@ Authors: Leonard Bereska, Zoe Tzifa-Kratira, Reza Samavi, Efstratios Gavves
 
 When grokked algorithmic cassettes from different geometric families (Hamiltonian, Euclidean, convolutional) are fused into shared weight subspaces, the resulting performance degradation is commonly interpreted as a technical failure of the transfer mechanism. However, this degradation may instead be revealing a fundamental constraint of physical law: different geometric classes of laws cannot coexist in the same representational subspace without sacrificing their defining invariants. A Kepler orbital cassette (Hamiltonian system preserving symplectic structure) and a wave propagation cassette (differential operator preserving locality) evolved in mathematically distinct habitats with incompatible structural requirements. The loss of precision when forcing coexistence is not noise—it is the system respecting implicit geometric rules that humans have not yet formalized. This suggests that Grokkit could function as a discovery tool: laws that fuse without degradation share unrecognized geometric relationships, while those that degrade significantly inhabit incompatible mathematical spaces. The next unification in physics might emerge not from theoretical speculation, but from observing which grokked laws can share subspaces without losing their essence.
 
+## [PAPER.md](https://github.com/grisuno/agi/blob/main/PAPER.md)
+
 
 ## Citation
 
