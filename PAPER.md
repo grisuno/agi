@@ -2,6 +2,9 @@
 
 **grisun0**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18072859.svg)](https://doi.org/10.5281/zenodo.18072859)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPLv3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
 ---
 
 ## Abstract
@@ -306,3 +309,7 @@ We define the geometric consistency metrics used to verify structural preservati
 | Wave | 1D wave equation | MSE < 10⁻⁶ | 3-layer CNN, sine activations |
 | Kepler | Orbital mechanics | MSE < 5×10⁻⁵ | 2-layer MLP, ReLU |
 | Pendulum | Double pendulum | MSE < 0.02 | 2-layer MLP, symplectic init |
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18072859.svg)](https://doi.org/10.5281/zenodo.18072859)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPLv3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
