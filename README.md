@@ -4,6 +4,8 @@ Independent Research
 December 2025
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18072859.svg)](https://doi.org/10.5281/zenodo.18072859)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPLv3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
 
 ## Abstract
 We present Grokkit, a modular framework for extracting, expanding, composing, and fusing neural networks that have grokked compact algorithmic or physical laws. Grokkit treats grokked models as algorithmic cassettes—self-contained, structurally transferable primitives that can be embedded into larger architectures via weight surgery without retraining. We demonstrate zero-shot structural transfer across four distinct domains: (1) discrete subset parity, (2) 1D wave propagation (PDE), (3) analytical Keplerian orbital mechanics (ODE), and (4) chaotic double pendulum dynamics (Hamiltonian system). Furthermore, we introduce a novel superposition mechanism that enables multiple cassettes to be surgically injected into a single shared weight tensor, creating a fused model capable of solving all tasks conditionally on input shape alone. This validates that grokking produces geometrically invariant algorithmic representations that remain functional under both modular composition and direct weight-level fusion. Grokkit establishes a foundation for composable, interpretable, and physically certified artificial intelligence.
@@ -327,6 +329,8 @@ url = {https://github.com/grisuno/grokkit }
 # License
 AGPL v3
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18072859.svg)](https://doi.org/10.5281/zenodo.18072859)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPLv3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y2Z73AV)
