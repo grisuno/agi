@@ -284,6 +284,7 @@ Code and pretrained grokked models are publicly available:
 - Wave Cassette: [https://github.com/grisuno/1d_wave_equation_grokker](https://github.com/grisuno/1d_wave_equation_grokker)
 - Kepler Cassette: [https://github.com/grisuno/kepler_orbit_grokker](https://github.com/grisuno/kepler_orbit_grokker)
 - Pendulum Cassette: [https://github.com/grisuno/chaotic_pendulum_grokked](https://github.com/grisuno/chaotic_pendulum_grokked)
+- Ciclotron Cassette: [https://github.com/grisuno/supertopo3](https://github.com/grisuno/supertopo3)
 
 Hardware: Tested on CPU i3 11 Gen . Software: Python 3.10, PyTorch 2.1+.
 
