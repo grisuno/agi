@@ -279,11 +279,11 @@ Future directions include extension to higher-dimensional PDEs, automated transf
 
 Code and pretrained grokked models are publicly available:
 
-- Core Framework: https://github.com/grisuno/agi
-- Parity Cassette: https://github.com/grisuno/algebra-de-grok
-- Wave Cassette: https://github.com/grisuno/1d_wave_equation_grokker
-- Kepler Cassette: https://github.com/grisuno/kepler_orbit_grokker
-- Pendulum Cassette: https://github.com/grisuno/chaotic_pendulum_grokked
+- Core Framework: [https://github.com/grisuno/agi](https://github.com/grisuno/agi)
+- Parity Cassette: [https://github.com/grisuno/algebra-de-grok](https://github.com/grisuno/algebra-de-grok)
+- Wave Cassette: [https://github.com/grisuno/1d_wave_equation_grokker](https://github.com/grisuno/1d_wave_equation_grokker)
+- Kepler Cassette: [https://github.com/grisuno/kepler_orbit_grokker](https://github.com/grisuno/kepler_orbit_grokker)
+- Pendulum Cassette: [https://github.com/grisuno/chaotic_pendulum_grokked](https://github.com/grisuno/chaotic_pendulum_grokked)
 
 Hardware: Tested on CPU i3 11 Gen . Software: Python 3.10, PyTorch 2.1+.
 
