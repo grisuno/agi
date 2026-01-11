@@ -93,15 +93,15 @@ Input → Predicted: pendulum  | True: pendulum  | ✓ | Confidence: 100.0%
 --------------------------------------------------
 Routing Accuracy: 100.00%
 
-✅ AGI Success
+AGI Success
 ❯ python3 uni.py
 Aentic Grokked Integrated v0.1 - Demo Multi-Domain
 ============================================================
-🧠 Cargando cassette parity desde /home/grisun0/src/py/algebra-de-grok/weights/weights/grok_model_stage4_n64_d1024_adaptive.pth
-🧠 Cargando cassette wave desde /home/grisun0/src/py/algebra-de-grok/weights/weights/wave_grok_cnn_physics_cassette.pth
-🧠 Cargando cassette kepler desde /home/grisun0/src/py/algebra-de-grok/weights/weights/kepler_base_model.pth
-🧠 Cargando cassette pendulum desde /home/grisun0/src/py/algebra-de-grok/weights/weights/symplectic_double_pendulum_grok_cassette.pth
-✅ Cargados 4 cassettes
+Cargando cassette parity desde /home/grisun0/src/py/algebra-de-grok/weights/weights/grok_model_stage4_n64_d1024_adaptive.pth
+Cargando cassette wave desde /home/grisun0/src/py/algebra-de-grok/weights/weights/wave_grok_cnn_physics_cassette.pth
+Cargando cassette kepler desde /home/grisun0/src/py/algebra-de-grok/weights/weights/kepler_base_model.pth
+Cargando cassette pendulum desde /home/grisun0/src/py/algebra-de-grok/weights/weights/symplectic_double_pendulum_grok_cassette.pth
+Cargados 4 cassettes
 
 ========================================
 Problem: Paridad Binaria
@@ -109,7 +109,7 @@ Problem: Paridad Binaria
   ✓ Predictions: [1, 0, 1, 0, 0]
   ✓ Ground truth: [1, 0, 1, 0, 0]
   ✓ Accuracy: 100.00%
-  ✓ Domain Detected: parity ✅
+  ✓ Domain Detected: parity
   ✓ Confidence: 100.0%
   ✓ Time: 1.19 ms
 
@@ -118,7 +118,7 @@ Problem: Ecuación de Onda
 ========================================
   ✓ MSE: 4.30e-07
   ✓ Output shape: torch.Size([5, 32])
-  ✓ Domain Detected: wave ✅
+  ✓ Domain Detected: wave
   ✓ Confidence: 100.0%
   ✓ Time: 1.92 ms
 
@@ -127,7 +127,7 @@ Problem: Órbita Kepleriana
 ========================================
   ✓ MSE: 1.08e+00
   ✓ Orbits predicted: [[0.9184668064117432, 0.13528387248516083], [3.2116708755493164, -0.48654210567474365]]...
-  ✓ Domain Detected: kepler ✅
+  ✓ Domain Detected: kepler
   ✓ Confidence: 100.0%
   ✓ Time: 0.16 ms
 
@@ -136,7 +136,7 @@ Problem: Péndulo Caótico
 ========================================
   ✓ MSE: 1.11e+00
   ✓ State predicted: [[-0.25283944606781006, 0.9262820482254028, 0.46256935596466064, 0.2673385739326477], [-0.6484752297401428, -0.6976774334907532, -0.8366202712059021, 0.752569854259491]]...
-  ✓ Domain Detected: pendulum ✅
+  ✓ Domain Detected: pendulum
   ✓ Confidence: 100.0%
   ✓ Time: 0.14 ms
 
@@ -163,29 +163,29 @@ Fused model created successfully with all available cassettes
 Testing each domain in the fused model:
 --------------------------------------------------
 Input shape: torch.Size([5, 64]) → Output shape: torch.Size([5, 2])
-Domain detected: parity | Expected: parity | ✅
+Domain detected: parity | Expected: parity
 Performance: Accuracy: 40.00%
 --------------------------------------------------
 Input shape: torch.Size([5, 2, 32]) → Output shape: torch.Size([5, 32])
-Domain detected: wave | Expected: wave | ✅
+Domain detected: wave | Expected: wave
 Performance: MSE: 1.61e-01
 --------------------------------------------------
 Input shape: torch.Size([5, 5]) → Output shape: torch.Size([5, 2])
-Domain detected: kepler | Expected: kepler | ✅
+Domain detected: kepler | Expected: kepler
 Performance: MSE: 2.39e+00
 --------------------------------------------------
 Input shape: torch.Size([5, 4]) → Output shape: torch.Size([5, 4])
-Domain detected: pendulum | Expected: pendulum | ✅
+Domain detected: pendulum | Expected: pendulum |
 Performance: MSE: 5.21e-01
 --------------------------------------------------
 
 Fused Model Summary
 ==================================================
 Domain routing accuracy: 4/4 (100.00%)
-  - parity: ✅ Accuracy: 40.00%
-  - wave: ✅ MSE: 1.61e-01
-  - kepler: ✅ MSE: 2.39e+00
-  - pendulum: ✅ MSE: 5.21e-01
+  - parity: Accuracy: 40.00%
+  - wave: MSE: 1.61e-01
+  - kepler: MSE: 2.39e+00
+  - pendulum: MSE: 5.21e-01
 
 Total parameters in fused model: 2,281,766,912
 Memory footprint: ~8704.25 MB
@@ -286,7 +286,8 @@ Code and pretrained grokked models are publicly available:
 - Pendulum Cassette: [https://github.com/grisuno/chaotic_pendulum_grokked](https://github.com/grisuno/chaotic_pendulum_grokked)
 - Ciclotron Cassette: [https://github.com/grisuno/supertopo3](https://github.com/grisuno/supertopo3)
 - MatMul 2x2 Cassette: [https://github.com/grisuno/matrixgrokker](https://github.com/grisuno/matrixgrokker)
-  
+- HPU Hamiltonian Cassette: [https://github.com/grisuno/HPU-Core](https://github.com/grisuno/HPU-Core)
+    
 Hardware: Tested on CPU i3 11 Gen . Software: Python 3.10, PyTorch 2.1+.
 
 ## References
