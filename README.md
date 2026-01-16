@@ -279,7 +279,7 @@ Future directions include extension to higher-dimensional PDEs, automated transf
 ## 6. Reproducibility
 
 Code and pretrained grokked models are publicly available:
-
+- Ancestor: [https://github.com/grisuno/SWAN-Phoenix-Rising](https://github.com/grisuno/SWAN-Phoenix-Rising)
 - Core Framework: [https://github.com/grisuno/agi](https://github.com/grisuno/agi)
 - Parity Cassette: [https://github.com/grisuno/algebra-de-grok](https://github.com/grisuno/algebra-de-grok)
 - Wave Cassette: [https://github.com/grisuno/1d_wave_equation_grokker](https://github.com/grisuno/1d_wave_equation_grokker)
