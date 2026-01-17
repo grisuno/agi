@@ -288,7 +288,8 @@ Code and pretrained grokked models are publicly available:
 - Ciclotron Cassette: [https://github.com/grisuno/supertopo3](https://github.com/grisuno/supertopo3)
 - MatMul 2x2 Cassette: [https://github.com/grisuno/matrixgrokker](https://github.com/grisuno/matrixgrokker)
 - HPU Hamiltonian Cassette: [https://github.com/grisuno/HPU-Core](https://github.com/grisuno/HPU-Core)
-    
+- Strassen Cassette: [https://github.com/grisuno/strass_strassen](https://github.com/grisuno/strass_strassen)
+      
 Hardware: Tested on CPU i3 11 Gen . Software: Python 3.10, PyTorch 2.1+.
 
 ## References
