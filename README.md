@@ -279,6 +279,7 @@ Future directions include extension to higher-dimensional PDEs, automated transf
 ## 6. Reproducibility
 
 Code and pretrained grokked models are publicly available:
+- First anomaly : [https://github.com/grisuno/TopoBrain](https://github.com/grisuno/TopoBrain) (Cifar10 32% Acc - Sparse topology : 0.004%)
 - Ancestor: [https://github.com/grisuno/SWAN-Phoenix-Rising](https://github.com/grisuno/SWAN-Phoenix-Rising)
 - Core Framework: [https://github.com/grisuno/agi](https://github.com/grisuno/agi)
 - Parity Cassette: [https://github.com/grisuno/algebra-de-grok](https://github.com/grisuno/algebra-de-grok)
