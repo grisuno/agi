@@ -1,0 +1,23 @@
+{
+  "tool": "readmenator",
+  "generated_at": "2026-09-17T05:13:49Z",
+  "project_root": "/tmp/push_agi_20260917_010128",
+  "files": 7,
+  "symbols": 65,
+  "imports": 779,
+  "resolved_imports": 8,
+  "security_findings": 0,
+  "languages": {
+    "py": 6,
+    "sh": 1
+  },
+  "entrypoints": [],
+  "start_here": "INDEX.md",
+  "workflow": [
+    "ls *.md readmenator-*/  # orient: docs first, ignore build noise",
+    "grep -n '<keyword>' INDEX.md",
+    "cat KB_<subsystem>.md",
+    "grep -n '<file>' ARCHITECTURE.md SYMBOLS.md"
+  ],
+  "regenerate": "readmenator . --rebuild"
+}
