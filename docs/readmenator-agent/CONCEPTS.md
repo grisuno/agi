@@ -1,0 +1,110 @@
+# Concepts
+
+Nouns map atomically to file sets (EXTRACTED); verbs aggregate structural edges (INFERRED).
+
+- `agi` | files=5 | mentions=9 | `agi.py`, `super_casette.py`, `uni.py`, `unificado.py`, `voz.py`
+- `con` | files=4 | mentions=11 | `agi.py`, `app.py`, `uni.py`, `voz.py`
+- `kepler` | files=4 | mentions=6 | `agi.py`, `app.py`, `super_casette.py`, `uni.py`
+- `forward` | files=3 | mentions=9 | `agi.py`, `super_casette.py`, `unificado.py`
+- `grokkit` | files=3 | mentions=6 | `agi.py`, `app.py`, `unificado.py`
+- `generate` | files=3 | mentions=5 | `agi.py`, `app.py`, `voz.py`
+- `para` | files=3 | mentions=4 | `app.py`, `super_casette.py`, `voz.py`
+- `parity` | files=3 | mentions=4 | `agi.py`, `app.py`, `uni.py`
+- `pendulum` | files=3 | mentions=4 | `agi.py`, `app.py`, `uni.py`
+- `wave` | files=3 | mentions=4 | `agi.py`, `app.py`, `uni.py`
+- `del` | files=3 | mentions=3 | `agi.py`, `super_casette.py`, `voz.py`
+- `demo` | files=3 | mentions=3 | `agi.py`, `uni.py`, `voz.py`
+- `dominio` | files=3 | mentions=3 | `agi.py`, `app.py`, `uni.py`
+- `get` | files=3 | mentions=3 | `agi.py`, `super_casette.py`, `voz.py`
+- `load` | files=3 | mentions=3 | `agi.py`, `super_casette.py`, `unificado.py`
+- `cassette` | files=2 | mentions=6 | `agi.py`, `app.py`
+- `data` | files=2 | mentions=4 | `agi.py`, `app.py`
+- `los` | files=2 | mentions=4 | `app.py`, `voz.py`
+- `que` | files=2 | mentions=4 | `app.py`, `voz.py`
+- `una` | files=2 | mentions=4 | `app.py`, `voz.py`
+- `unified` | files=2 | mentions=4 | `agi.py`, `unificado.py`
+- `app` | files=2 | mentions=3 | `app.py`, `super_casette.py`
+- `dataset` | files=2 | mentions=3 | `agi.py`, `app.py`
+- `expert` | files=2 | mentions=3 | `super_casette.py`, `voz.py`
+- `final` | files=2 | mentions=3 | `super_casette.py`, `voz.py`
+- `grokked` | files=2 | mentions=3 | `agi.py`, `app.py`
+- `robusta` | files=2 | mentions=3 | `unificado.py`, `voz.py`
+- `script` | files=2 | mentions=3 | `app.py`, `uni.py`
+- `sticas` | files=2 | mentions=3 | `agi.py`, `voz.py`
+- `usando` | files=2 | mentions=3 | `unificado.py`, `voz.py`
+- `using` | files=2 | mentions=3 | `agi.py`, `app.py`
+- `basado` | files=2 | mentions=2 | `agi.py`, `voz.py`
+- `bits` | files=2 | mentions=2 | `app.py`, `voz.py`
+- `demostraci` | files=2 | mentions=2 | `app.py`, `voz.py`
+- `domain` | files=2 | mentions=2 | `uni.py`, `voz.py`
+- `input` | files=2 | mentions=2 | `agi.py`, `voz.py`
+- `problemas` | files=2 | mentions=2 | `uni.py`, `voz.py`
+- `real` | files=2 | mentions=2 | `app.py`, `voz.py`
+- `resuelve` | files=2 | mentions=2 | `app.py`, `uni.py`
+- `weights` | files=2 | mentions=2 | `agi.py`, `super_casette.py`
+
+## Verb Edges
+
+- `agi` --depends_on--> `forward` (strength 1.00)
+- `agi` --depends_on--> `grokkit` (strength 1.00)
+- `agi` --depends_on--> `load` (strength 1.00)
+- `agi` --depends_on--> `unified` (strength 1.00)
+- `con` --depends_on--> `agi` (strength 0.83)
+- `con` --depends_on--> `forward` (strength 0.83)
+- `con` --depends_on--> `grokkit` (strength 0.83)
+- `con` --depends_on--> `load` (strength 0.83)
+- `con` --depends_on--> `unified` (strength 0.83)
+- `agi` --depends_on--> `basado` (strength 0.67)
+- `agi` --depends_on--> `cassette` (strength 0.67)
+- `agi` --depends_on--> `con` (strength 0.67)
+- `agi` --depends_on--> `data` (strength 0.67)
+- `agi` --depends_on--> `dataset` (strength 0.67)
+- `agi` --depends_on--> `del` (strength 0.67)
+- `agi` --depends_on--> `demo` (strength 0.67)
+- `agi` --depends_on--> `dominio` (strength 0.67)
+- `agi` --depends_on--> `generate` (strength 0.67)
+- `agi` --depends_on--> `get` (strength 0.67)
+- `agi` --depends_on--> `grokked` (strength 0.67)
+- `agi` --depends_on--> `input` (strength 0.67)
+- `agi` --depends_on--> `kepler` (strength 0.67)
+- `agi` --depends_on--> `parity` (strength 0.67)
+- `agi` --depends_on--> `pendulum` (strength 0.67)
+- `agi` --depends_on--> `sticas` (strength 0.67)
+- `agi` --depends_on--> `using` (strength 0.67)
+- `agi` --depends_on--> `wave` (strength 0.67)
+- `agi` --depends_on--> `weights` (strength 0.67)
+- `demo` --depends_on--> `agi` (strength 0.67)
+- `demo` --depends_on--> `forward` (strength 0.67)
+- `demo` --depends_on--> `grokkit` (strength 0.67)
+- `demo` --depends_on--> `load` (strength 0.67)
+- `demo` --depends_on--> `unified` (strength 0.67)
+- `domain` --depends_on--> `agi` (strength 0.67)
+- `domain` --depends_on--> `forward` (strength 0.67)
+- `domain` --depends_on--> `grokkit` (strength 0.67)
+- `domain` --depends_on--> `load` (strength 0.67)
+- `domain` --depends_on--> `unified` (strength 0.67)
+- `kepler` --depends_on--> `agi` (strength 0.67)
+- `kepler` --depends_on--> `forward` (strength 0.67)
+- `kepler` --depends_on--> `grokkit` (strength 0.67)
+- `kepler` --depends_on--> `load` (strength 0.67)
+- `kepler` --depends_on--> `unified` (strength 0.67)
+- `para` --depends_on--> `agi` (strength 0.67)
+- `para` --depends_on--> `forward` (strength 0.67)
+- `para` --depends_on--> `grokkit` (strength 0.67)
+- `para` --depends_on--> `load` (strength 0.67)
+- `para` --depends_on--> `unified` (strength 0.67)
+- `problemas` --depends_on--> `agi` (strength 0.67)
+- `problemas` --depends_on--> `forward` (strength 0.67)
+
+## Dialectic
+
+- Thesis: `agi` centralizes 5 files; Antithesis: `basado` pulls 2 files with 2 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
+- Thesis: `agi` centralizes 5 files; Antithesis: `con` pulls 4 files with 3 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
+- Thesis: `agi` centralizes 5 files; Antithesis: `del` pulls 3 files with 3 shared (Jaccard 0.60); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
+- Thesis: `agi` centralizes 5 files; Antithesis: `demo` pulls 3 files with 3 shared (Jaccard 0.60); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
+- Thesis: `agi` centralizes 5 files; Antithesis: `domain` pulls 2 files with 2 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
+- Thesis: `agi` centralizes 5 files; Antithesis: `dominio` pulls 3 files with 2 shared (Jaccard 0.33); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
+- Thesis: `agi` centralizes 5 files; Antithesis: `expert` pulls 2 files with 2 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
+- Thesis: `agi` centralizes 5 files; Antithesis: `final` pulls 2 files with 2 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
+- Thesis: `agi` centralizes 5 files; Antithesis: `forward` pulls 3 files with 3 shared (Jaccard 0.60); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
+- Thesis: `agi` centralizes 5 files; Antithesis: `generate` pulls 3 files with 2 shared (Jaccard 0.33); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?
