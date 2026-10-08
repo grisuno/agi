@@ -4,20 +4,13 @@
 
 These files have the most connections. Changes here have high blast radius.
 
-- `agi.py` (score: 12.50, imported by 5 files)
-- `unificado.py` (score: 6.50, imported by 2 files)
+- `agi.py` (score: 12.50)
+- `unificado.py` (score: 6.50)
 - `voz.py` (score: 5.20)
 - `uni.py` (score: 4.20)
 - `super_casette.py` (score: 3.50)
 - `app.py` (score: 2.60)
 - `install.sh` (score: 0.00)
-
-## Blast Radius (change impact)
-
-Editing these files can break the listed number of dependents. Run their tests after any change.
-
-- `agi.py` -- 5 direct, 5 total dependents
-- `unificado.py` -- 2 direct, 2 total dependents
 
 ## Hotspots (complexity + centrality)
 

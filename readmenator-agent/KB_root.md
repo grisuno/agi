@@ -1,8 +1,8 @@
 # Subsystem: root
 
 ## agi.py
-- Doc: Agentic Grokked Integratted v0.1 - Unified Algorithmic Cassette Model  A modular, composable...
 - Layer: utility
+- Doc: Agentic Grokked Integratted v0.1 - Unified Algorithmic Cassette Model  A modular, composable library for transplanting g
 - Language: py
 - Symbols:
   - `get_parity_dataset` (function, line 31) `def get_parity_dataset(n_bits, k, size)`
@@ -30,11 +30,11 @@
   - `__init__` (method, line 197) `def __init__(self, load_weights)`
   - `load_pretrained_weights` (method, line 213) `def load_pretrained_weights(self)`
   - `forward` (method, line 237) `def forward(self, x)`
-- Imported by: `app.py`, `super_casette.py`, `uni.py`, `unificado.py`, `voz.py`
+- Imported by: `app.py`, `app.py`, `super_casette.py`, `uni.py`, `unificado.py`, `voz.py`
 
 ## app.py
-- Doc: Demostración Definitiva de Éxito de Grokking en Grokkit  Este script prueba que cada cassette...
 - Layer: utility
+- Doc: Demostración Definitiva de Éxito de Grokking en Grokkit  Este script prueba que cada cassette, con sus pesos grokked, re
 - Language: py
 - Symbols:
   - `test_wave` (function, line 25) `def test_wave(grokkit)`
@@ -50,8 +50,8 @@
 - Language: sh
 
 ## super_casette.py
-- Doc: FusedAGI - HYBRIDO FINAL (Arquitectura Casette + Entrenamiento App) Inyección del truco...
 - Layer: utility
+- Doc: FusedAGI - HYBRIDO FINAL (Arquitectura Casette + Entrenamiento App) Inyección del truco Superposición+LC para resucitar 
 - Language: py
 - Symbols:
   - `SuperpositionSAE` (class, line 32) `class SuperpositionSAE(Module)`
@@ -72,8 +72,8 @@
 - Depends on: `agi.py`
 
 ## uni.py
-- Doc: AGI v0.1 - Demo Multi-Dominio Resuelve Parity, Wave, Kepler y Pendulum en un solo script.
 - Layer: utility
+- Doc: AGI v0.1 - Demo Multi-Dominio Resuelve Parity, Wave, Kepler y Pendulum en un solo script.
 - Language: py
 - Symbols:
   - `batch_multi_domain` (function, line 15) `def batch_multi_domain()`
@@ -81,8 +81,8 @@
 - Depends on: `agi.py`, `unificado.py`
 
 ## unificado.py
-- Doc: Grokkit v0.1 - Unified Agent with Explicit Path Mapping No parsing, no magic, just works.
 - Layer: utility
+- Doc: Grokkit v0.1 - Unified Agent with Explicit Path Mapping No parsing, no magic, just works.
 - Language: py
 - Symbols:
   - `UnifiedGrokkitAgent` (class, line 17) `class UnifiedGrokkitAgent(Module)`
@@ -94,8 +94,8 @@
 - Imported by: `uni.py`, `voz.py`
 
 ## voz.py
-- Doc: AGI Voice Layer v2.0 - Capa de lenguaje robusta para sistema de expertos AGI Corrección de...
 - Layer: utility
+- Doc: AGI Voice Layer v2.0 - Capa de lenguaje robusta para sistema de expertos AGI Corrección de problemas de routing y genera
 - Language: py
 - Symbols:
   - `AGIVoiceLayer` (class, line 33) `class AGIVoiceLayer`
