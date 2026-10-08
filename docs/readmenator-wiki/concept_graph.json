@@ -1,0 +1,1663 @@
+{
+  "concepts": [
+    {
+      "name": "agi",
+      "files": [
+        "agi.py",
+        "super_casette.py",
+        "uni.py",
+        "unificado.py",
+        "voz.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "con",
+      "files": [
+        "agi.py",
+        "app.py",
+        "uni.py",
+        "voz.py"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "kepler",
+      "files": [
+        "agi.py",
+        "app.py",
+        "super_casette.py",
+        "uni.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "forward",
+      "files": [
+        "agi.py",
+        "super_casette.py",
+        "unificado.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "grokkit",
+      "files": [
+        "agi.py",
+        "app.py",
+        "unificado.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "generate",
+      "files": [
+        "agi.py",
+        "app.py",
+        "voz.py"
+      ],
+      "mentions": 5,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "para",
+      "files": [
+        "app.py",
+        "super_casette.py",
+        "voz.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "parity",
+      "files": [
+        "agi.py",
+        "app.py",
+        "uni.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "pendulum",
+      "files": [
+        "agi.py",
+        "app.py",
+        "uni.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "wave",
+      "files": [
+        "agi.py",
+        "app.py",
+        "uni.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "del",
+      "files": [
+        "agi.py",
+        "super_casette.py",
+        "voz.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "demo",
+      "files": [
+        "agi.py",
+        "uni.py",
+        "voz.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "dominio",
+      "files": [
+        "agi.py",
+        "app.py",
+        "uni.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "get",
+      "files": [
+        "agi.py",
+        "super_casette.py",
+        "voz.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "load",
+      "files": [
+        "agi.py",
+        "super_casette.py",
+        "unificado.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "cassette",
+      "files": [
+        "agi.py",
+        "app.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "data",
+      "files": [
+        "agi.py",
+        "app.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "los",
+      "files": [
+        "app.py",
+        "voz.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "que",
+      "files": [
+        "app.py",
+        "voz.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "una",
+      "files": [
+        "app.py",
+        "voz.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "unified",
+      "files": [
+        "agi.py",
+        "unificado.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "app",
+      "files": [
+        "app.py",
+        "super_casette.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "dataset",
+      "files": [
+        "agi.py",
+        "app.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "expert",
+      "files": [
+        "super_casette.py",
+        "voz.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "final",
+      "files": [
+        "super_casette.py",
+        "voz.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "grokked",
+      "files": [
+        "agi.py",
+        "app.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "robusta",
+      "files": [
+        "unificado.py",
+        "voz.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "script",
+      "files": [
+        "app.py",
+        "uni.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "sticas",
+      "files": [
+        "agi.py",
+        "voz.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "usando",
+      "files": [
+        "unificado.py",
+        "voz.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "using",
+      "files": [
+        "agi.py",
+        "app.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "basado",
+      "files": [
+        "agi.py",
+        "voz.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "bits",
+      "files": [
+        "app.py",
+        "voz.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "demostraci",
+      "files": [
+        "app.py",
+        "voz.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "domain",
+      "files": [
+        "uni.py",
+        "voz.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "input",
+      "files": [
+        "agi.py",
+        "voz.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "problemas",
+      "files": [
+        "uni.py",
+        "voz.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "real",
+      "files": [
+        "app.py",
+        "voz.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "resuelve",
+      "files": [
+        "app.py",
+        "uni.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "weights",
+      "files": [
+        "agi.py",
+        "super_casette.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "relations": [
+    {
+      "source": "agi",
+      "target": "forward",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "grokkit",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "load",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "unified",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "agi",
+      "verb": "depends_on",
+      "strength": 0.83,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "forward",
+      "verb": "depends_on",
+      "strength": 0.83,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "grokkit",
+      "verb": "depends_on",
+      "strength": 0.83,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "load",
+      "verb": "depends_on",
+      "strength": 0.83,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "unified",
+      "verb": "depends_on",
+      "strength": 0.83,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "basado",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "cassette",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "con",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "data",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "dataset",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "del",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "demo",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "dominio",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "generate",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "get",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "grokked",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "input",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "kepler",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "parity",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "pendulum",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "sticas",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "using",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "wave",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "agi",
+      "target": "weights",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "unificado.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "demo",
+      "target": "agi",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "demo",
+      "target": "forward",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "demo",
+      "target": "grokkit",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "demo",
+      "target": "load",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "demo",
+      "target": "unified",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "domain",
+      "target": "agi",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "domain",
+      "target": "forward",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "domain",
+      "target": "grokkit",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "domain",
+      "target": "load",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "domain",
+      "target": "unified",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "kepler",
+      "target": "agi",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "uni.py->unificado.py"
+      ]
+    },
+    {
+      "source": "kepler",
+      "target": "forward",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "uni.py->unificado.py"
+      ]
+    },
+    {
+      "source": "kepler",
+      "target": "grokkit",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "uni.py->unificado.py"
+      ]
+    },
+    {
+      "source": "kepler",
+      "target": "load",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "uni.py->unificado.py"
+      ]
+    },
+    {
+      "source": "kepler",
+      "target": "unified",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "super_casette.py->agi.py",
+        "uni.py->agi.py",
+        "uni.py->unificado.py"
+      ]
+    },
+    {
+      "source": "para",
+      "target": "agi",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "super_casette.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "para",
+      "target": "forward",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "super_casette.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "para",
+      "target": "grokkit",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "super_casette.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "para",
+      "target": "load",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "super_casette.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "para",
+      "target": "unified",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "super_casette.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "problemas",
+      "target": "agi",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "problemas",
+      "target": "forward",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "problemas",
+      "target": "grokkit",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "problemas",
+      "target": "load",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "problemas",
+      "target": "unified",
+      "verb": "depends_on",
+      "strength": 0.67,
+      "confidence": "INFERRED",
+      "evidence": [
+        "uni.py->agi.py",
+        "uni.py->unificado.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "bits",
+      "target": "agi",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "bits",
+      "target": "forward",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "bits",
+      "target": "grokkit",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "bits",
+      "target": "load",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "bits",
+      "target": "unified",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "basado",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "cassette",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "data",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "dataset",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "del",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "demo",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "dominio",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "generate",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "get",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "grokked",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "input",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "kepler",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "parity",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "pendulum",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "sticas",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "using",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "wave",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "con",
+      "target": "weights",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "voz.py->agi.py"
+      ]
+    },
+    {
+      "source": "del",
+      "target": "agi",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "del",
+      "target": "forward",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "del",
+      "target": "grokkit",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "del",
+      "target": "load",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "del",
+      "target": "unified",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "demostraci",
+      "target": "agi",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "demostraci",
+      "target": "forward",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "demostraci",
+      "target": "grokkit",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "demostraci",
+      "target": "load",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "demostraci",
+      "target": "unified",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "dominio",
+      "target": "agi",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "uni.py->unificado.py"
+      ]
+    },
+    {
+      "source": "dominio",
+      "target": "forward",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "uni.py->unificado.py"
+      ]
+    },
+    {
+      "source": "dominio",
+      "target": "grokkit",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "uni.py->unificado.py"
+      ]
+    },
+    {
+      "source": "dominio",
+      "target": "load",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "uni.py->unificado.py"
+      ]
+    },
+    {
+      "source": "dominio",
+      "target": "unified",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->agi.py",
+        "uni.py->agi.py",
+        "uni.py->unificado.py"
+      ]
+    },
+    {
+      "source": "expert",
+      "target": "agi",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "expert",
+      "target": "forward",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "expert",
+      "target": "grokkit",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "expert",
+      "target": "load",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "expert",
+      "target": "unified",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "final",
+      "target": "agi",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "final",
+      "target": "forward",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "final",
+      "target": "grokkit",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    },
+    {
+      "source": "final",
+      "target": "load",
+      "verb": "depends_on",
+      "strength": 0.5,
+      "confidence": "INFERRED",
+      "evidence": [
+        "super_casette.py->agi.py",
+        "voz.py->agi.py",
+        "voz.py->unificado.py"
+      ]
+    }
+  ],
+  "dialectic": [
+    "Thesis: `agi` centralizes 5 files; Antithesis: `basado` pulls 2 files with 2 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `agi` centralizes 5 files; Antithesis: `con` pulls 4 files with 3 shared (Jaccard 0.50); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `agi` centralizes 5 files; Antithesis: `del` pulls 3 files with 3 shared (Jaccard 0.60); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `agi` centralizes 5 files; Antithesis: `demo` pulls 3 files with 3 shared (Jaccard 0.60); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `agi` centralizes 5 files; Antithesis: `domain` pulls 2 files with 2 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `agi` centralizes 5 files; Antithesis: `dominio` pulls 3 files with 2 shared (Jaccard 0.33); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `agi` centralizes 5 files; Antithesis: `expert` pulls 2 files with 2 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `agi` centralizes 5 files; Antithesis: `final` pulls 2 files with 2 shared (Jaccard 0.40); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `agi` centralizes 5 files; Antithesis: `forward` pulls 3 files with 3 shared (Jaccard 0.60); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `agi` centralizes 5 files; Antithesis: `generate` pulls 3 files with 2 shared (Jaccard 0.33); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?"
+  ]
+}
